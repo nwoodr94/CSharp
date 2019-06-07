@@ -9,17 +9,31 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
+#VARS
 variables:
   buildConfiguration: 'Release'
   pathtosolution: 'CSharp/Woodruff_Nathan_Project1/'
   pathtoproject: 'CSharp/Woodruff_Nathan_Project1/WebApplication/'
 
+#STEPS
 steps:
-- task: NuGetToolInstaller@0
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarConnection'
+    organization: 'nwoodr94-github'
+    scannerMode: 'MSBuild'
+    projectKey: 'nwoodr94_CSharp'
+    projectName: 'Web Application'
 
-# BUILD:
+
+#BUILD
 - script: dotnet build --configuration $(buildConfiguration)
   workingDirectory: $(pathtosolution)
   displayName: 'dotnet build $(buildConfiguration)'
 
 
+#ANALYZE
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+- task: SonarCloudAnalyze@1
