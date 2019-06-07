@@ -12,8 +12,8 @@ pool:
 #VARS
 variables:
   buildConfiguration: 'Release'
-  pathtosolution: 'CSharp/Woodruff_Nathan_Project1/'
-  pathtoproject: 'CSharp/Woodruff_Nathan_Project1/WebApplication/'
+  pathtosolution: 'Woodruff_Nathan_Project1/'
+  pathtoproject: 'Woodruff_Nathan_Project1/WebApplication/'
 
 #STEPS
 steps:
