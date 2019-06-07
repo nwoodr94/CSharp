@@ -12979,11 +12979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\WebApplication\\WebApplication.csproj",
+      "projectPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\WebApplication\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\WebApplication\\obj\\",
+      "outputPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13002,11 +13002,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Data\\Data.csproj"
+            "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Data\\Data.csproj"
             },
-            "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj"
+            "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj"
             }
           }
         }

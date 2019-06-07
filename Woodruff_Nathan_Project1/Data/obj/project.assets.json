@@ -3636,11 +3636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3659,8 +3659,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Nathan\\GitHub\\Woodruff_Nathan_Project1\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj"
+            "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Nathan\\GitHub\\CSharp\\CSharp\\Woodruff_Nathan_Project1\\Domain\\Domain.csproj"
             }
           }
         }
