@@ -36,7 +36,7 @@ namespace Data
 
         public static Db.Pizzas Map(Domain.Pizza pizza) => new Db.Pizzas
         {
-            Id = (int)pizza.id,
+            //Id = (int)pizza.id,
             Size = pizza.size,
             Crust = pizza.crust,
             Type = pizza.type,

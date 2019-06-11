@@ -77,16 +77,18 @@ namespace WebApplication.Controllers
 
                 newPizza.cost = newPizza.GetCost(newPizza);
 
-                try
-                {
-                    db.Add(newPizza);
-                    db.Save();
-                    return RedirectToAction(nameof(Index));
-                }
-                catch
-                {
-                    return View();
-                }
+                db.Add(newPizza);
+                db.Save();
+                return RedirectToAction(nameof(Index));
+
+                //try
+                //{
+                    
+                //}
+                //catch
+                //{
+                //    return View();
+                //}
             }
 
             
